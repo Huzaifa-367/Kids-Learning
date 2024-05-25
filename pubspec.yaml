@@ -1,0 +1,76 @@
+name: kids_learning_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_tts: ^3.3.3
+  url_launcher: ^6.0.18
+  flutter_share: ^2.0.0
+  webview_flutter: ^3.0.0
+  motion_toast:
+  google_mobile_ads: ^1.1.0
+  responsive_framework: ^0.1.7
+  youtube_player_flutter: ^9.0.0
+  dio: ^5.4.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+#  flutter_launcher_icons:
+#flutter_native_splash:
+#  android: true
+#  ios: true
+#  web: true
+#  color: "Colors.redAccent"
+#  background_image: "assets/images/logo.png"
+#  image: assets/images/logo.png
+#flutter_icons:
+#  image_path: assets/images/logo.png
+#  android: true
+#  ios: true
+
+
+
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+
+  #   - images/a_dot_ham.jpeg
+
+  # example:
+  fonts:
+    - family: arlrdbd
+      fonts:
+       - asset: assets/fonts/arlrdbd.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+#    - family: arlrdbd.ttf
+#      fonts:
+#        - asset: assets/fonts/arlrdbd.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+#          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
